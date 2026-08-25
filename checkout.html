@@ -3,63 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gold HL Signals — Precision Gold (XAU/USD) Signals</title>
-<meta name="description" content="Automated gold trading signals. Free channel every 15 minutes, VIP every 5 minutes with full SL/TP levels and daily recaps.">
+<title>Checkout — Gold HL Signals</title>
 <style>
   :root{
-    --bg:#0d0f14; --bg2:#141824; --card:#1a1f2e; --line:#2a3245;
-    --gold:#d4af37; --gold2:#f3d67e; --green:#2ecc71; --red:#e74c3c;
-    --text:#e8eaf0; --muted:#9aa3b5;
+    --bg:#0d0f14; --card:#1a1f2e; --line:#2a3245;
+    --gold:#d4af37; --green:#2ecc71; --text:#e8eaf0; --muted:#9aa3b5;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
   a{color:var(--gold);text-decoration:none}
-  .wrap{max-width:1020px;margin:0 auto;padding:0 20px}
-  header{position:sticky;top:0;z-index:9;background:rgba(13,15,20,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-  nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
-  .logo{font-weight:800;font-size:1.15rem;color:var(--gold);letter-spacing:.5px}
+  header{border-bottom:1px solid var(--line);padding:16px 0}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px;width:100%}
+  .logo{font-weight:800;color:var(--gold);font-size:1.1rem}
   .logo span{color:var(--text)}
-  nav a.btn{margin-left:10px}
-  .btn{display:inline-block;background:linear-gradient(135deg,var(--gold),#b8952b);color:#0d0f14;font-weight:700;padding:11px 22px;border-radius:10px;border:none;cursor:pointer;font-size:.95rem;transition:transform .15s}
-  .btn:hover{transform:translateY(-1px)}
-  .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
-  .hero{padding:72px 0 56px;text-align:center;background:radial-gradient(600px 300px at 50% -40px,rgba(212,175,55,.16),transparent)}
-  .hero .tag{display:inline-block;border:1px solid var(--gold);color:var(--gold);font-size:.78rem;font-weight:700;letter-spacing:1.5px;padding:5px 14px;border-radius:999px;margin-bottom:20px}
-  .hero h1{font-size:clamp(1.9rem,5vw,3.1rem);font-weight:800;line-height:1.15}
-  .hero h1 em{font-style:normal;color:var(--gold)}
-  .hero p{color:var(--muted);max-width:640px;margin:18px auto 30px;font-size:1.05rem}
-  .stats{display:flex;justify-content:center;gap:38px;flex-wrap:wrap;margin-top:38px}
-  .stat b{display:block;font-size:1.7rem;color:var(--gold)}
-  .stat span{color:var(--muted);font-size:.85rem}
-  section{padding:56px 0}
-  h2{font-size:1.7rem;text-align:center;margin-bottom:8px}
-  .sub{color:var(--muted);text-align:center;margin-bottom:38px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
-  .card h3{margin-bottom:8px;font-size:1.05rem}
-  .card p{color:var(--muted);font-size:.92rem}
-  .ico{font-size:1.6rem;margin-bottom:10px;display:block}
-  .pricing .grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));align-items:stretch}
-  .plan{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;position:relative}
-  .plan.hot{border-color:var(--gold);box-shadow:0 0 40px rgba(212,175,55,.15)}
-  .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:#0d0f14;font-size:.72rem;font-weight:800;padding:3px 12px;border-radius:999px;letter-spacing:1px}
-  .plan h3{font-size:1.1rem}
-  .price{font-size:2.3rem;font-weight:800;color:var(--gold);margin:10px 0 2px}
+  main{flex:1;padding:48px 0}
+  h1{font-size:1.8rem;text-align:center;margin-bottom:6px}
+  .sub{color:var(--muted);text-align:center;margin-bottom:36px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column}
+  .plan.hot{border-color:var(--gold)}
+  .plan h2{font-size:1.15rem}
+  .price{font-size:2.4rem;font-weight:800;color:var(--gold);margin:8px 0 2px}
   .price small{font-size:.9rem;color:var(--muted);font-weight:400}
-  .plan ul{list-style:none;margin:18px 0 26px;flex:1}
-  .plan li{padding:7px 0 7px 26px;position:relative;color:var(--muted);font-size:.92rem}
+  .plan ul{list-style:none;margin:18px 0 24px;flex:1}
+  .plan li{padding:6px 0 6px 26px;position:relative;color:var(--muted);font-size:.92rem}
   .plan li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}
-  .plan .btn{text-align:center;width:100%}
-  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
-  summary{cursor:pointer;font-weight:600}
-  details p{color:var(--muted);margin-top:10px;font-size:.93rem}
-  footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--muted);font-size:.85rem}
-  .ticker{margin-top:34px;color:var(--muted);font-size:.8rem}
-  .ticker b{color:var(--green)}
-  @media(max-width:640px){.stats{gap:22px}.stat b{font-size:1.4rem}}
+  .btn{display:block;text-align:center;background:linear-gradient(135deg,var(--gold),#b8952b);color:#0d0f14;font-weight:700;padding:13px;border-radius:10px;transition:transform .15s}
+  .btn:hover{transform:translateY(-1px)}
+  .note{font-size:.82rem;color:var(--muted);text-align:center;margin-top:10px}
+  .pending{background:transparent;border:1px dashed var(--line);color:var(--muted);cursor:not-allowed}
+  .banner{margin-top:34px;background:#1a2233;border:1px solid #2c3f63;color:#a9c1e8;border-radius:12px;padding:14px 18px;font-size:.88rem;text-align:center}
+  footer{border-top:1px solid var(--line);padding:22px 0;text-align:center;color:var(--muted);font-size:.82rem}
 </style>
 </head>
 <body>
 
-<header>
-  
+<header><div class="wrap"><div class="logo">GOLD<span>HL</span> SIGNALS — Checkout</div></div></header>
+
+<main>
+  <div class="wrap">
+    <h1>Choose your plan</h1>
+    <p class="sub">Secure card payment via Paystack • Instant VIP access after payment</p>
+
+    <div class="grid">
+
+      <div class="plan hot" id="vip">
+        <h2>VIP Channel</h2>
+        <div class="price">$9.90<small>/month</small></div>
+        <ul>
+          <li>Signals every 5 minutes</li>
+          <li>Full SL + TP1 &amp; TP2 on every signal</li>
+          <li>Confidence score per trade</li>
+          <li>Daily performance recap</li>
+        </ul>
+        <a class="btn pay" data-plan="vip" href="#">Pay $9.90 / month</a>
+        <p class="note">Cancel anytime — no lock-in.</p>
+      </div>
+
+      <div class="plan" id="lifetime">
+        <h2>Lifetime VIP</h2>
+        <div class="price">$79<small>one-time</small></div>
+        <ul>
+          <li>Everything in VIP — forever</li>
+          <li>All future features included</li>
+          <li>One payment, lifetime access</li>
+          <li>Best value</li>
+        </ul>
+        <a class="btn pay" data-plan="lifetime" href="#">Pay $79 once</a>
+        <p class="note">Never billed again.</p>
+      </div>
+
+    </div>
+
+    <div class="banner" id="setup-note" hidden>
+      ⚙️ Payment links not configured yet — the site owner needs to paste their
+      Paystack payment-page links into <code>PAY_LINKS</code> at the top of
+      <code>checkout.html</code>. See <code>README.md</code> in this folder.
+    </div>
+  </div>
+</main>
+
+<footer><div class="wrap">Trading involves risk. Not financial advice.</div></footer>
+
+<script>
+/* ============================================================
+   PAY_LINKS — paste your Paystack Payment Page links here.
+   1. Create the pages in Paystack (see README.md)
+   2. Replace the placeholder strings below
+  3. Commit — the buttons go live instantly.
+  ============================================================ */
+const PAY_LINKS = {
+  vip:      "PASTE-PAYSTACK-VIP-LINK-HERE",       // VIP $9.90/month page
+  lifetime: "PASTE-PAYSTACK-LIFETIME-LINK-HERE"   // Lifetime $79 page
+};
+
+(function () {
+  var missing = false;
+  document.querySelectorAll("a.pay").forEach(function (btn) {
+    var link = PAY_LINKS[btn.dataset.plan] || "";
+    if (link.indexOf("PASTE-PAYSTACK") === 0 || !link) {
+      missing = true;
+      btn.classList.add("pending");
+      btn.textContent = "Payments coming soon";
+    } else {
+      btn.href = link;
+    }
+  });
+  if (missing) { document.getElementById("setup-note").hidden = false; }
+})();
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3073ee9ad51b5ad',t:'MTc4NzYyNTc3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
