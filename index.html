@@ -1,72 +1,170 @@
-GOLDHL SIGNALS
-Pricing Join Free
-XAU / USD  •  AUTOMATED  •  24/5
-Precision Gold signals,
-delivered to your phone
-Our bot tracks gold's session highs & lows around the clock and posts breakout signals to Telegram the moment they confirm — with entry, stop-loss and two take-profit levels on every VIP trade.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gold HL Signals — Precision Gold (XAU/USD) Signals</title>
+<meta name="description" content="Automated gold trading signals. Free channel every 15 minutes, VIP every 5 minutes with full SL/TP levels and daily recaps.">
+<style>
+  :root{
+    --bg:#0d0f14; --bg2:#141824; --card:#1a1f2e; --line:#2a3245;
+    --gold:#d4af37; --gold2:#f3d67e; --green:#2ecc71; --red:#e74c3c;
+    --text:#e8eaf0; --muted:#9aa3b5;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+  a{color:var(--gold);text-decoration:none}
+  .wrap{max-width:1020px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;z-index:9;background:rgba(13,15,20,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .logo{font-weight:800;font-size:1.15rem;color:var(--gold);letter-spacing:.5px}
+  .logo span{color:var(--text)}
+  nav a.btn{margin-left:10px}
+  .btn{display:inline-block;background:linear-gradient(135deg,var(--gold),#b8952b);color:#0d0f14;font-weight:700;padding:11px 22px;border-radius:10px;border:none;cursor:pointer;font-size:.95rem;transition:transform .15s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.ghost{background:transparent;color:var(--gold);border:1px solid var(--gold)}
+  .hero{padding:72px 0 56px;text-align:center;background:radial-gradient(600px 300px at 50% -40px,rgba(212,175,55,.16),transparent)}
+  .hero .tag{display:inline-block;border:1px solid var(--gold);color:var(--gold);font-size:.78rem;font-weight:700;letter-spacing:1.5px;padding:5px 14px;border-radius:999px;margin-bottom:20px}
+  .hero h1{font-size:clamp(1.9rem,5vw,3.1rem);font-weight:800;line-height:1.15}
+  .hero h1 em{font-style:normal;color:var(--gold)}
+  .hero p{color:var(--muted);max-width:640px;margin:18px auto 30px;font-size:1.05rem}
+  .stats{display:flex;justify-content:center;gap:38px;flex-wrap:wrap;margin-top:38px}
+  .stat b{display:block;font-size:1.7rem;color:var(--gold)}
+  .stat span{color:var(--muted);font-size:.85rem}
+  section{padding:56px 0}
+  h2{font-size:1.7rem;text-align:center;margin-bottom:8px}
+  .sub{color:var(--muted);text-align:center;margin-bottom:38px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .card h3{margin-bottom:8px;font-size:1.05rem}
+  .card p{color:var(--muted);font-size:.92rem}
+  .ico{font-size:1.6rem;margin-bottom:10px;display:block}
+  .pricing .grid{grid-template-columns:repeat(auto-fit,minmax(270px,1fr));align-items:stretch}
+  .plan{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;position:relative}
+  .plan.hot{border-color:var(--gold);box-shadow:0 0 40px rgba(212,175,55,.15)}
+  .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:#0d0f14;font-size:.72rem;font-weight:800;padding:3px 12px;border-radius:999px;letter-spacing:1px}
+  .plan h3{font-size:1.1rem}
+  .price{font-size:2.3rem;font-weight:800;color:var(--gold);margin:10px 0 2px}
+  .price small{font-size:.9rem;color:var(--muted);font-weight:400}
+  .plan ul{list-style:none;margin:18px 0 26px;flex:1}
+  .plan li{padding:7px 0 7px 26px;position:relative;color:var(--muted);font-size:.92rem}
+  .plan li::before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:800}
+  .plan .btn{text-align:center;width:100%}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:600}
+  details p{color:var(--muted);margin-top:10px;font-size:.93rem}
+  footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--muted);font-size:.85rem}
+  .ticker{margin-top:34px;color:var(--muted);font-size:.8rem}
+  .ticker b{color:var(--green)}
+  @media(max-width:640px){.stats{gap:22px}.stat b{font-size:1.4rem}}
+</style>
+</head>
+<body>
 
-See plans →
-5 min
-VIP signal frequency
-24/5
-Market coverage
-Daily
-Performance recap
-2 TP
-Levels per signal
-Next automated scan: every 5 minutes • Free channel posts every 15 minutes
-Simple pricing
-Start free. Upgrade when the results speak for themselves.
+<header>
+  <div class="wrap nav-wrap">
+    <nav>
+      <div class="logo">GOLD<span>HL</span> SIGNALS</div>
+      <div>
+        <a class="btn ghost" href="#pricing">Pricing</a>
+        <a class="btn" href="#join">Join Free</a>
+      </div>
+    </nav>
+  </div>
+</header>
 
-Free Channel
-$0
-Signals every 15 minutes
-Entry price & direction
-Daily recap teaser
-Forever free
-Join Free Channel
-MOST POPULAR
-VIP Channel
-$9.90/month
-Signals every 5 minutes
-Full SL + TP1 & TP2 levels
-Confidence score per signal
-Daily recap with win-rate stats
-Priority trade management
-Get VIP Access
-Lifetime VIP
-$79one-time
-Everything in VIP, forever
-All future features included
-Never pay monthly again
-Best value for serious traders
-Get Lifetime
-How it works
-Fully automated — no analyst sitting at a desk.
+<div class="hero">
+  <div class="wrap">
+    <div class="tag">XAU / USD &nbsp;•&nbsp; AUTOMATED &nbsp;•&nbsp; 24/5</div>
+    <h1>Precision <em>Gold</em> signals,<br>delivered to your phone</h1>
+    <p>Our bot tracks gold's session highs &amp; lows around the clock and posts breakout
+       signals to Telegram the moment they confirm — with entry, stop-loss and two
+       take-profit levels on every VIP trade.</p>
+    <a class="btn" href="#pricing">See plans →</a>
+    <div class="stats">
+      <div class="stat"><b>5 min</b><span>VIP signal frequency</span></div>
+      <div class="stat"><b>24/5</b><span>Market coverage</span></div>
+      <div class="stat"><b>Daily</b><span>Performance recap</span></div>
+      <div class="stat"><b>2 TP</b><span>Levels per signal</span></div>
+    </div>
+    <div class="ticker">Next automated scan: every 5 minutes • Free channel posts every 15 minutes</div>
+  </div>
+</div>
 
-📈
-1. Watches the market
-The bot scans gold prices every few minutes and builds its own high/low map of the session.
+<section class="pricing" id="pricing">
+  <div class="wrap">
+    <h2>Simple pricing</h2>
+    <p class="sub">Start free. Upgrade when the results speak for themselves.</p>
+    <div class="grid">
+      <div class="plan">
+        <h3>Free Channel</h3>
+        <div class="price">$0</div>
+        <ul>
+          <li>Signals every 15 minutes</li>
+          <li>Entry price &amp; direction</li>
+          <li>Daily recap teaser</li>
+          <li>Forever free</li>
+        </ul>
+        <a class="btn ghost" id="join" href="https://t.me/YOUR_FREE_CHANNEL">Join Free Channel</a>
+      </div>
+      <div class="plan hot">
+        <div class="badge">MOST POPULAR</div>
+        <h3>VIP Channel</h3>
+        <div class="price">$9.90<small>/month</small></div>
+        <ul>
+          <li>Signals every 5 minutes</li>
+          <li>Full SL + TP1 &amp; TP2 levels</li>
+          <li>Confidence score per signal</li>
+          <li>Daily recap with win-rate stats</li>
+          <li>Priority trade management</li>
+        </ul>
+        <a class="btn" href="checkout.html#vip">Get VIP Access</a>
+      </div>
+      <div class="plan">
+        <h3>Lifetime VIP</h3>
+        <div class="price">$79<small>one-time</small></div>
+        <ul>
+          <li>Everything in VIP, forever</li>
+          <li>All future features included</li>
+          <li>Never pay monthly again</li>
+          <li>Best value for serious traders</li>
+        </ul>
+        <a class="btn ghost" href="checkout.html#lifetime">Get Lifetime</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-⚡
-2. Catches breakouts
-When price breaks a session high or low with momentum, a signal fires instantly — no emotion, no delay.
+<section>
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="sub">Fully automated — no analyst sitting at a desk.</p>
+    <div class="grid">
+      <div class="card"><span class="ico">📈</span><h3>1. Watches the market</h3><p>The bot scans gold prices every few minutes and builds its own high/low map of the session.</p></div>
+      <div class="card"><span class="ico">⚡</span><h3>2. Catches breakouts</h3><p>When price breaks a session high or low with momentum, a signal fires instantly — no emotion, no delay.</p></div>
+      <div class="card"><span class="ico">🎯</span><h3>3. Manages the trade</h3><p>Every VIP signal ships with a stop-loss and two take-profits. The bot tracks it until it closes.</p></div>
+      <div class="card"><span class="ico">📊</span><h3>4. Reports daily</h3><p>Each evening you get a recap: signals taken, wins, losses, win rate and total pips.</p></div>
+    </div>
+  </div>
+</section>
 
-🎯
-3. Manages the trade
-Every VIP signal ships with a stop-loss and two take-profits. The bot tracks it until it closes.
+<section>
+  <div class="wrap">
+    <h2>FAQ</h2>
+    <p class="sub">Quick answers</p>
+    <details><summary>Do I need trading experience?</summary><p>No. Every signal tells you the direction, entry, stop-loss and take-profit. You decide your own position size — and never risk more than you can afford to lose.</p></details>
+    <details><summary>How are signals delivered?</summary><p>Via Telegram channels. The free channel posts every 15 minutes; the VIP channel fires every 5 minutes with full levels.</p></details>
+    <details><summary>What payment methods do you accept?</summary><p>Cards and bank transfers via Paystack — you can pay from anywhere in minutes. See the checkout page for the VIP ($9.90/mo) and Lifetime ($79) options.</p></details>
+    <details><summary>Is this financial advice?</summary><p>No. Signals are generated automatically for educational purposes. Trading gold involves substantial risk of loss. Always do your own analysis and risk management.</p></details>
+  </div>
+</section>
 
-📊
-4. Reports daily
-Each evening you get a recap: signals taken, wins, losses, win rate and total pips.
+<footer>
+  <div class="wrap">
+    <p><strong>Gold HL Signals</strong> — automated XAU/USD breakout signals.</p>
+    <p style="margin-top:8px">Trading involves risk. Past performance does not guarantee future results. This is not financial advice.</p>
+  </div>
+</footer>
 
-FAQ
-Quick answers
-
-Do I need trading experience?
-How are signals delivered?
-What payment methods do you accept?
-Is this financial advice?
-Gold HL Signals — automated XAU/USD breakout signals.
-
-Trading involves risk. Past performance does not guarantee future results. This is not financial advice.
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3071fe8ffcb1c8c',t:'MTc4NzYyNDUwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
